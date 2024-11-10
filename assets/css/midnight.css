@@ -1,0 +1,46 @@
+/* General background */
+body {
+  background-color: #f0f8e2;  /* Light greenish-tan background */
+  color: #2e4a1f;  /* Dark green for main text, easy on the eyes */
+}
+
+/* Link colors */
+a {
+  color: #4e9a5e;  /* Medium green for links */
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #2e6b37;  /* Darker green on hover */
+}
+
+/* Navbar and footer */
+.navbar, .footer {
+  background-color: #8fbfa8;  /* Soft greenish background for header/footer */
+  color: #ffffff;  /* White text for contrast */
+}
+
+/* Header and footer links */
+.navbar a, .footer a {
+  color: #ffffff;  /* White links in navbar/footer */
+}
+
+.navbar a:hover, .footer a:hover {
+  color: #d0eac2;  /* Light greenish-tan on hover */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #3b6e3b;  /* Medium-dark green for headings */
+}
+
+/* Buttons and highlights */
+button, .highlight {
+  background-color: #4e9a5e;  /* Medium green */
+  color: #ffffff;
+  border: none;
+}
+
+button:hover, .highlight:hover {
+  background-color: #3b6e3b;  /* Dark green on hover */
+}
