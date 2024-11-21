@@ -177,6 +177,7 @@ Additional step for Windows WSL users
 
 ## 9. Wrap-up
 - **Recap**: Steps covered during the workshop.
+- **Resources**: [Git and GitHub](https://foss.cyverse.org/05_version_control/)
 - **PDF Guide**: [Download the full workshop guide](https://drive.google.com/uc?export=download&id=1X-67QGOs_uLPocsGHISzn1BUluYTL2ey).
 
 Thank you for participating in the workshop!
