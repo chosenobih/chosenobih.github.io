@@ -18,7 +18,7 @@ Welcome to the workshop on building your own academic website using GitHub Pages
 ---
 
 ## 1. Introduction and Overview
-- Objective: Understand the importance of an academic website, GitHub Pages, and Jekyll.
+- Objective: Develop your personal website.
 - Examples: Professional academic websites built with GitHub Pages and Jekyll
 - [Arun Seetharam](https://aseetharam.github.io/)
 - [Chosen Obih](https://chosenobih.github.io/)
@@ -31,9 +31,7 @@ Welcome to the workshop on building your own academic website using GitHub Pages
 1. Enable the Windows Subsystem for Linux:
    - Open PowerShell as an Administrator - Press **Win + S**, type PowerShell, right-click on it, and choose Run as Administrator.
    - Run the the command below to enable WSL and Virtual Machine Platform:
-   ```
-   wsl --install
-   ```
+   - `wsl --install`
    - This command above will: Enable WSL, Install the necessary components (including the Virtual Machine Platform) and Download and install the default Linux distribution (typically Ubuntu).
    - Retart your computer when prompted
 2. Install Ubuntu (if not installed during WSL setup):
@@ -47,13 +45,9 @@ Welcome to the workshop on building your own academic website using GitHub Pages
    - Enter a username and password (this is independent of your Windows credentials).
    - Your Ubuntu system is now ready to use!
    - Once inside Ubuntu, update the system by running the command below
-   ```
-   sudo apt update && sudo apt upgrade -y
-   ```
+   - `sudo apt update && sudo apt upgrade -y`
    - Install some essential packages
-   ```
-   sudo apt install git python3 build-essential
-   ```
+   - `sudo apt install git python3 build-essential`
 
 ### Step 2: Set up Git and GitHub
    - **What is Git?** Git is a version control system that helps you track changes in your code and collaborate with others.
@@ -70,12 +64,8 @@ Welcome to the workshop on building your own academic website using GitHub Pages
    - **macOS**: Install via Homebrew (`brew install git`) or download from [Git for macOS](https://git-scm.com/download/mac).
    - **Ubuntu**: Run `sudo apt update && sudo apt install git`.
 3. Configure Git with your GitHub credentials:
-   ```
-   git config --global user.name "Your Name"
-   ```
-   ```
-   git config --global user.email "your.email@example.com"
-   ```
+   - `git config --global user.name "Your Name"`
+   - `git config --global user.email "your.email@example.com"`
 
 ### Step 3: Install Ruby, Bundle and VC Code
 1. Install **Ruby**:
@@ -85,22 +75,18 @@ Welcome to the workshop on building your own academic website using GitHub Pages
    - Download from [VS Code's website](https://code.visualstudio.com/), install, open the app and click on terminal.
    - For Windows WSL users, within the VS Code terminal, select Ubuntu WSL as the terminal choice
 3. Install **Bundle** - the Ruby dependency manager by running.
-   ```
-   sudo gem install bundler
-   ```
+   `sudo gem install bundler`
    
-Additional step for Windows WSL users
-   **Accessing Windows Files from WSL**
+#### Additional step for Windows WSL users
+   - **Accessing Windows Files from WSL**
    - In WSL, your Windows file system is mounted under `/mnt` directory. Each drive (e.g. C:, D:) is mounted as a subdirectory under `/mnt`.
-   - C Drive: `/mnt/c
-   - D Drive: `mnt/d
+   - C Drive: `/mnt/c`
+   - D Drive: `mnt/d`
    - Other drives: `/mnt/e`, `/mnt/f`, etc
-   **Steps to navigate to a folder (Windows WSL users only)**
+   - **Steps to navigate to a folder (Windows WSL users only)**
    - Within your VS Code WSL terminal
    - Type in the command below to change directory to your C drive:
-   ```
-   cd /mnt/c/Users/YourUsername/Documents
-   ```
+   - `cd /mnt/c/Users/YourUsername/Documents`
 ---
 
 
@@ -108,19 +94,15 @@ Additional step for Windows WSL users
 
 1. Log in to GitHub.
 2. Visit this link in a new tab:
-   ```
-   https://github.com/academicpages/academicpages.github.io.git
-   ```
+   - `https://github.com/academicpages/academicpages.github.io.git`
+
 3. Fork the repo (Remember to rename it to a name you desire - this name will be in your website link)
 4. Clone the repository you just forked to your local machine:
-   - Open your VS code and click on terminal
+   - Open your VS code and click on terminal. Run the command below:
    - `git clone repo https link`
 5. Navigate into the repository:
-   ```
-   cd your-username.github.io
-   ```
+   - `cd your-username.github.io`
 6. Open the repo folder in your VC Code
-
 
 ---
 
@@ -132,12 +114,9 @@ Additional step for Windows WSL users
    - **Email**
    - **Social media links**
 2. Run the site locally to test:
-   ```
-   bundle install
-   ```
-   ```
-   sudo bundle exec jekyll serve
-   ```
+   - `bundle install`
+   - `sudo bundle exec jekyll serve`
+
 3. Visit `http://localhost:4000` in your browser to preview the site.
 
 ---
@@ -151,11 +130,10 @@ Additional step for Windows WSL users
 ## 6. Deploying the Website on GitHub Pages
 
 1. Commit your changes:
-   ```
-   git add .
-   git commit -m "Initial setup of the academic website"
-   git push origin main
-   ```
+   - `git add .`
+   - `git commit -m "Initial setup of the academic website"`
+   - `git push origin main`
+
 2. Go to the repository settings on GitHub and set the source to the main branch.
 3. Access your live site at `https://your-username.github.io`.
 
