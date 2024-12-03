@@ -77,7 +77,7 @@ Welcome to the workshop on building your own academic website using GitHub Pages
 3. Install **Bundle** - the Ruby dependency manager by running.
    `sudo gem install bundler`
    
-#### Additional step for Windows WSL users
+### Additional step for Windows WSL users
    - **Accessing Windows Files from WSL**
    - In WSL, your Windows file system is mounted under `/mnt` directory. Each drive (e.g. C:, D:) is mounted as a subdirectory under `/mnt`.
    - C Drive: `/mnt/c`
@@ -85,7 +85,7 @@ Welcome to the workshop on building your own academic website using GitHub Pages
    - Other drives: `/mnt/e`, `/mnt/f`, etc
    - **Steps to navigate to a folder (Windows WSL users only)**
    - Within your VS Code WSL terminal
-   - Type in the command below to change directory to your C drive:
+   - Type in the command below to change directory to your C drive
    - `cd /mnt/c/Users/YourUsername/Documents`
 ---
 
@@ -114,7 +114,7 @@ Welcome to the workshop on building your own academic website using GitHub Pages
    - **Email**
    - **Social media links**
 2. Run the site locally to test:
-   - `bundle install`
+   - `bundle install`  to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
    - `sudo bundle exec jekyll serve`
 
 3. Visit `http://localhost:4000` in your browser to preview the site.
@@ -134,8 +134,8 @@ Welcome to the workshop on building your own academic website using GitHub Pages
    - `git commit -m "Initial setup of the academic website"`
    - `git push origin main`
 
-2. Go to the repository settings on GitHub and set the source to the main branch.
-3. Access your live site at `https://your-username.github.io`.
+2. Go to the repository settings on GitHub, under Pages section, Build and deployment, set the source to the main branch. 
+3. Wait for a few minutes and access your live site at `https://your-username.github.io`.
 
 ---
 
