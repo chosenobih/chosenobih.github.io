@@ -1,5 +1,5 @@
 
-# Workshop: Build Your Academic Website with GitHub Pages and Jekyll
+# From Zero to Website: Crafting a Professional Academic Website with GitHub Pages and Jekyll
 
 ## Overview
 Welcome to the workshop on building your own academic website using GitHub Pages and Jekyll! This guide will take you through the process step-by-step, accommodating users on Windows, Ubuntu, and macOS.
@@ -87,7 +87,7 @@ Welcome to the workshop on building your own academic website using GitHub Pages
    - Within your VS Code WSL terminal
    - Type in the command below to change directory to your C drive
    - `cd /mnt/c/Users/YourUsername/Documents`
-   
+
 ---
 
 
