@@ -87,6 +87,7 @@ Welcome to the workshop on building your own academic website using GitHub Pages
    - Within your VS Code WSL terminal
    - Type in the command below to change directory to your C drive
    - `cd /mnt/c/Users/YourUsername/Documents`
+   
 ---
 
 
